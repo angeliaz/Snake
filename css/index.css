@@ -1,0 +1,32 @@
+/*body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0;cursor:default;}body,button,input,select,textarea{font:12px/1 Microsoft Yahei,"\5b8b\4f53","黑体",Tahoma,Helvetica,Arial,sans-serif}h1{font-size:18px}h2{font-size:16px}h3{font-size:14px}h4,h5,h6{font-size:100%}address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}small{font-size:12px}ul,ol{list-style:none;display: -webkit-box;}a{text-decoration:none;cursor:pointer;outline:0;hide-focus:expression(this.hideFocus=true);color:#000}a:hover{text-decoration: none;}abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}q:before,q:after{content:''}legend{color:#000}fieldset,img{border:none;}button,input,select,textarea{font-size:100%;outline:0;hide-focus:expression(this.hideFocus=true)}table{border-collapse:collapse;border-spacing:0}hr{border:0;height:1px}html{overflow-y:scroll}.clearfix:after{display:block;height:0;clear:both;visibility:hidden;content:'020'}.clearfix{zoom:1}*/
+
+body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.wrap {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+td {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #f2dede;
+	
+}
+.score {
+	margin-bottom: 30px;
+}
+.score a {
+	float: right;
+	margin-right: 30px;
+}
+canvas {
+	background-color: #fcf8e3;
+}
+h3 {
+	display: inline-block;
+}
