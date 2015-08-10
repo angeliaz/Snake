@@ -23,6 +23,7 @@
 	};
 
 	function Snake (settings) {
+		
 		for(var key in defaultSettings) {
 			this[key] = settings[key] ? settings[key] : defaultSettings[key];
 		}
