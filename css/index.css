@@ -21,11 +21,12 @@ td {
 	margin-bottom: 30px;
 }
 .score a {
-	float: right;
-	margin-right: 30px;
+	/*float: right;*/
+	margin-left: 100px;
 }
 canvas {
 	background-color: #fcf8e3;
+	/*background-color: #fff;*/
 }
 h3 {
 	display: inline-block;

@@ -35,8 +35,8 @@
         <h1>The Simplest Snake Game <small>just for practice</small></h1>
       </div>
       <div class="score">
-        <h3>你的得分是: <span id="score">1020</span></h3>
-        <a class="btn btn-primary btn-lg" href="#" role="button">重新开始</a>
+        <h3>你的得分是: <span id="score">0</span></h3>
+        <a id="begin" class="btn btn-primary btn-lg" href="#" role="button">重新开始</a>
       </div>
       <canvas id="canvas"></canvas>
 
@@ -56,7 +56,7 @@
     <script>
       var settings = {
         row: 20,
-        column: 30
+        column: 25
       };
       var snake = new Snake(settings);
       snake.init();
