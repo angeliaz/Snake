@@ -207,6 +207,7 @@
 						break;
 					}
 					if (_this.access[_this.currentDirection] !== _this.oldDirection) { 
+						console.log(_this.oldDirection);
 						_this.move();
 					}
 				}
